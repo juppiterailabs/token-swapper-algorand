@@ -9,7 +9,7 @@ export default function App(props: AppProps) {
   return (
     <>
       <Head>
-        <title>Project Title</title>
+        <title>Algorand token swapper</title>
         <meta name="description" content="Project description" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
