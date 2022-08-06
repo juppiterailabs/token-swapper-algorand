@@ -1,14 +1,14 @@
-import { Title } from '@mantine/core'
-import type { NextPage } from 'next'
+import { Title, Text } from '@mantine/core'
 
-const Home: NextPage = () => {
+export default function Home () {
   return (
-    <>
-      <Title className="text-white underline w-full text-center">
-        Project Title
+    <div className='flex items-center'>
+      <Title className="text-white w-full font-normal p-3">
+        Algorand Token Swapper
       </Title>
-    </>
+      <Text className='bg-gradient-to-r text-white basis-48 rounded-full h-fit py-2 text-center from-fuchsia-500 to-purple-800'>
+        Connect to a wallet
+      </Text>
+    </div>
   )
 }
-
-export default Home
